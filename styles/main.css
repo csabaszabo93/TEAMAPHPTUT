@@ -1,0 +1,101 @@
+html {
+    background-color: #3d4459;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.site-header {
+    margin: auto;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.site-header h1 {
+    text-align: center;
+    color: white;
+}
+
+.site-header .header-login-box a {
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+    color: white;
+}
+
+.site-header .header-login-box h3 {
+    text-align: center;
+    color: white;
+}
+
+.article-container {
+    margin: auto;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 0px 2px 8px black;
+    background-color: #a5a5a5;
+}
+
+.article-container h2 {
+    margin: 0;
+}
+
+.article-container p:nth-child(2) {
+    margin: 0;
+}
+
+.article-edit-form {
+    margin: auto;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 0px 2px 8px black;
+    background-color: #a5a5a5;
+}
+
+.article-edit-form p {
+    margin: 0;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.article-edit-form input, .article-edit-form textarea {
+    width: 390px;
+    resize: vertical;
+}
+
+.article-edit-form textarea {
+    min-height: 100px;
+}
+
+.login-container {
+    margin: auto;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 0px 2px 8px black;
+    background-color: #a5a5a5;
+}
+
+.login-container p {
+    margin: 0;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.login-container input {
+    width: 290px;
+}
+
+.login-container button {
+    margin-top: 10px;
+}
